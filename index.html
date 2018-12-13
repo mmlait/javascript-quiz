@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="ie6.css.css">
+    <![endif]-->
+    <link rel="icon"
+      type="image/x-icons"
+      href="favicon.ico">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+
+    <div id="container">
+
+      <div id="header">
+        <header>
+          <h1>Quiz</h1>
+        </header>
+      </div> <!--header-->
+
+      <div id="main">
+        <main>
+
+          <script type="text/javascript" src="quiz.js"></script>
+
+          <form action="index.html" method="post" id="form">
+
+            <!-- questions -->
+            <div class="box">
+              <label class="q">In which country is the Plitvice Lakes National Park located?</label><br>
+              <div class="choices">
+                <input type="radio" id="a1" value="a" name="q1"><label for="a">Italy</label><br>
+                <input type="radio" id="b1" value="b" name="q1"><label for="b">Switzerland</label><br>
+                <input type="radio" id="c1" value="c" name="q1"><label for="c">Croatia</label><br>
+              </div> <!--.choices-->
+            </div> <!--.q-->
+
+            <div class="box">
+              <label class="q">Corsica is part of ...</label><br>
+              <div class="choices">
+                <input type="radio" id="a2" value="a" name="q2"><label for="a">Spain</label><br>
+                <input type="radio" id="b2" value="b" name="q2"><label for="b">Italy</label><br>
+                <input type="radio" id="c2" value="c" name="q2"><label for="c">France</label><br>
+              </div> <!--.choices-->
+            </div> <!--.q-->
+
+            <div class="box">
+              <label class="q">Which of these mountains is not a volcano?</label><br>
+              <div class="choices">
+                <input type="radio" id="a3" value="a" name="q3"><label for="a">Olympus</label><br>
+                <input type="radio" id="b3" value="b" name="q3"><label for="b">Kilauea</label><br>
+                <input type="radio" id="c3" value="c" name="q3"><label for="c">Vesuvius</label>
+              </div> <!--.choices-->
+            </div> <!--.q-->
+
+            <div class="box">
+              <label class="q">In which country is the Durmitor National Park located?</label><br>
+              <div class="choices">
+                <input type="radio" id="a4" value="a" name="q4"><label for="a">Austria</label><br>
+                <input type="radio" id="b4" value="b" name="q4"><label for="b">Montenegro</label><br>
+                <input type="radio" id="c4" value="c" name="q4"><label for="c">Albania</label>
+              </div> <!--.choices-->
+            </div> <!--.q-->
+
+            <div class="box">
+              <label class="q">Which of these national parks is not located in the USA?</label><br>
+              <div class="choices">
+                <input type="radio" id="a5" value="a" name="q5"><label for="a">Acadia</label><br>
+                <input type="radio" id="b5" value="b" name="q5"><label for="b">Banff</label><br>
+                <input type="radio" id="c5" value="c" name="q5"><label for="c">Yellowstone</label><br>
+              </div> <!--.choices-->
+            </div> <!--.q-->
+
+            <!-- submit answers -->
+            <button id="button" type="submit">Check answers</button>
+
+          </form>
+        </main>
+      </div> <!--main-->
+
+      <div id="footer">
+        <footer>
+          <span>&copy;2018 Miia Laitinen</span>
+          <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </footer>
+      </div> <!--footer-->
+
+    </div> <!--container-->
+
+  </body>
+
+</html>
