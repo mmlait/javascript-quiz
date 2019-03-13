@@ -127,8 +127,8 @@ footer div {
   border-radius: 10px;
 }
 
-.swal-button:active {
-  background: pink;
+.swal-button:not([disabled]):hover {
+  background-color: #4a6c52;
 }
 
 /* ---media queries--- */
